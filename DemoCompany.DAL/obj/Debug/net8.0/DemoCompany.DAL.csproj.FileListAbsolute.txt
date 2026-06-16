@@ -1,0 +1,14 @@
+D:\Teaching\DemoCompany\DemoCompany.DAL\bin\Debug\net8.0\DemoCompany.DAL.deps.json
+D:\Teaching\DemoCompany\DemoCompany.DAL\bin\Debug\net8.0\DemoCompany.DAL.runtimeconfig.json
+D:\Teaching\DemoCompany\DemoCompany.DAL\bin\Debug\net8.0\DemoCompany.DAL.dll
+D:\Teaching\DemoCompany\DemoCompany.DAL\bin\Debug\net8.0\DemoCompany.DAL.pdb
+D:\Teaching\DemoCompany\DemoCompany.DAL\obj\Debug\net8.0\DemoCompany.DAL.csproj.AssemblyReference.cache
+D:\Teaching\DemoCompany\DemoCompany.DAL\obj\Debug\net8.0\DemoCompany.DAL.GeneratedMSBuildEditorConfig.editorconfig
+D:\Teaching\DemoCompany\DemoCompany.DAL\obj\Debug\net8.0\DemoCompany.DAL.AssemblyInfoInputs.cache
+D:\Teaching\DemoCompany\DemoCompany.DAL\obj\Debug\net8.0\DemoCompany.DAL.AssemblyInfo.cs
+D:\Teaching\DemoCompany\DemoCompany.DAL\obj\Debug\net8.0\DemoCompany.DAL.csproj.CoreCompileInputs.cache
+D:\Teaching\DemoCompany\DemoCompany.DAL\obj\Debug\net8.0\DemoCompany.DAL.dll
+D:\Teaching\DemoCompany\DemoCompany.DAL\obj\Debug\net8.0\refint\DemoCompany.DAL.dll
+D:\Teaching\DemoCompany\DemoCompany.DAL\obj\Debug\net8.0\DemoCompany.DAL.pdb
+D:\Teaching\DemoCompany\DemoCompany.DAL\obj\Debug\net8.0\DemoCompany.DAL.genruntimeconfig.cache
+D:\Teaching\DemoCompany\DemoCompany.DAL\obj\Debug\net8.0\ref\DemoCompany.DAL.dll
