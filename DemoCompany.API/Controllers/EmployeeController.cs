@@ -27,5 +27,21 @@ namespace DemoCompany.API.Controllers
             return Ok(result);
 
         }
+
+        [HttpPost]
+        public ActionResult CreateEmployee(CreateEmployeeRequestDTO request)
+        {
+            CreateEmployeeResponseDTO? result = _service.CreateEmployee(request);
+
+            if (result == null)
+            {
+                return BadRequest("Bad Request");
+            }
+
+            return Ok(result);
+
+        }
     }
+
+   
 }

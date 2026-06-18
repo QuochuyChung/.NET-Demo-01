@@ -1,0 +1,16 @@
+D:\Teaching\DemoCompany\DemoCompany.BLL\obj\Debug\net8.0\DemoCompany.BLL.csproj.AssemblyReference.cache
+D:\Teaching\DemoCompany\DemoCompany.BLL\obj\Debug\net8.0\DemoCompany.BLL.GeneratedMSBuildEditorConfig.editorconfig
+D:\Teaching\DemoCompany\DemoCompany.BLL\obj\Debug\net8.0\DemoCompany.BLL.AssemblyInfoInputs.cache
+D:\Teaching\DemoCompany\DemoCompany.BLL\obj\Debug\net8.0\DemoCompany.BLL.AssemblyInfo.cs
+D:\Teaching\DemoCompany\DemoCompany.BLL\obj\Debug\net8.0\DemoCompany.BLL.csproj.CoreCompileInputs.cache
+D:\Teaching\DemoCompany\DemoCompany.BLL\obj\Debug\net8.0\DemoCompany.BLL.sourcelink.json
+D:\Teaching\DemoCompany\DemoCompany.BLL\bin\Debug\net8.0\DemoCompany.BLL.deps.json
+D:\Teaching\DemoCompany\DemoCompany.BLL\bin\Debug\net8.0\DemoCompany.BLL.dll
+D:\Teaching\DemoCompany\DemoCompany.BLL\bin\Debug\net8.0\DemoCompany.BLL.pdb
+D:\Teaching\DemoCompany\DemoCompany.BLL\bin\Debug\net8.0\DemoCompany.DAL.dll
+D:\Teaching\DemoCompany\DemoCompany.BLL\bin\Debug\net8.0\DemoCompany.DAL.pdb
+D:\Teaching\DemoCompany\DemoCompany.BLL\obj\Debug\net8.0\DemoComp.8A4AF81A.Up2Date
+D:\Teaching\DemoCompany\DemoCompany.BLL\obj\Debug\net8.0\DemoCompany.BLL.dll
+D:\Teaching\DemoCompany\DemoCompany.BLL\obj\Debug\net8.0\refint\DemoCompany.BLL.dll
+D:\Teaching\DemoCompany\DemoCompany.BLL\obj\Debug\net8.0\DemoCompany.BLL.pdb
+D:\Teaching\DemoCompany\DemoCompany.BLL\obj\Debug\net8.0\ref\DemoCompany.BLL.dll

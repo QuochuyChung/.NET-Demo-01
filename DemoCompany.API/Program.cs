@@ -38,7 +38,11 @@ namespace DemoCompany.API
              */
 
 
-            builder.Services.AddScoped<EmployeeRepository>();
+          builder.Services.AddScoped<EmployeeRepository>();
+          builder.Services.AddScoped<DepartmentRepository>();
+
+            builder.Services.AddScoped<UnitOfWork>();
+
             builder.Services.AddScoped<EmployeeService>();
 
             var app = builder.Build();

@@ -14,6 +14,7 @@ namespace DemoCompany.DAL
         // MÌNH SẼ PHẢI TỰ CODE ĐỂ CHO NÓ GIAO TIẾP
         private readonly DemoCompanyContext _context;
 
+
         /*
             Hiện tại _context đang là null
             Có 2 cách để cho context có bộ nhớ để xử lí 
@@ -46,6 +47,7 @@ namespace DemoCompany.DAL
 
             result = _context.Employees.Include(e => e.Department).ToList();
 
+         
             return result;
             /*
                 1 số câu lệnh Linq đặc trưng là chốt sổ xuống database
@@ -53,5 +55,75 @@ namespace DemoCompany.DAL
              */
         }
 
+        public bool CreateEmployee(Employee emp)
+        {
+            _context.Add(emp);
+
+            // khi gọi add - update - delete thì nó đang nằm trên ram
+
+
+            return true;
+        }
+
+        public bool DeleteEmployee(Employee emp)
+        {
+            Employee? existEmp = GetEmployeeById(emp.EmployeeId);
+
+            if(existEmp != null)
+            {
+                _context.Remove(emp);
+                return true;
+            }
+
+
+            return false;
+        }
+
+        public Employee? GetEmployeeById(int id)
+        {
+            Employee? emp = _context.Employees.FirstOrDefault(e => e.EmployeeId == id);
+
+            if(emp == null)
+            {
+                return null;
+            }
+
+            return emp;
+        }
+
+
+        public bool UpdateEmployee(Employee emp)
+        {
+            Employee? existEmp = GetEmployeeById(emp.EmployeeId);
+
+            if(existEmp != null)
+            {
+                existEmp.FullName = emp.FullName;
+                existEmp.Phone = emp.Phone;
+                existEmp.Email = emp.Email;
+                existEmp.Salary = emp.Salary;
+
+                _context.Update(existEmp);
+
+                return true;
+            }
+
+            return false;
+        }
+
+        public Employee? GetByCondition(Func<Employee, bool> predict)
+        { 
+            Employee? emp = _context.Employees.FirstOrDefault(predict);
+
+            if (emp == null)
+            {
+                return null;
+            }
+
+            return emp;
+        }
+
+
     }
 }
+ 
