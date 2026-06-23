@@ -1,5 +1,31 @@
 [
   {
+    "ContainingType": "DemoCompany.API.Controllers.DepartmentController",
+    "Method": "CreateDepartment",
+    "RelativePath": "api/Department/new-department",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "DemoCompany.BLL.DTO.CreateDepartmentRequestDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "DemoCompany.BLL.DTO.CreateDepartmentResponseDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
     "ContainingType": "DemoCompany.API.Controllers.EmployeeController",
     "Method": "CreateEmployee",
     "RelativePath": "api/Employee",

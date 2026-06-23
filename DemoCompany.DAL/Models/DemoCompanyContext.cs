@@ -29,25 +29,25 @@ public partial class DemoCompanyContext : DbContext
         - Thông qua cơ chế Dependency Injection bên file program
      */
 
-    protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-    {
-        // configuration mình sẽ tìm cấu hình của file app settings xong nạp vào trong cái biến configuration
-        IConfiguration configuration = new ConfigurationBuilder() // new 1 object Configuration Builder
-                                         //SetBasePath: tác dụng là để nhắc cho configuration biết là tìm file app settings ở đâu
-                                        .SetBasePath(Directory.GetCurrentDirectory())
-                                        // tìm file app settings và add thật sự
-                                        // optional nếu để true có nghĩa là không tìm thấy file thì sẽ không crash app -> bỏ qua luôn
-                                        //  reloadOnChange: tự reload nội dung file lại mà không cần restart app nếu có ai sửa bên trong file
-                                        .AddJsonFile("appsettings.json", true, true)
-                                        .Build();
+    //protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+    //{
+    //    // configuration mình sẽ tìm cấu hình của file app settings xong nạp vào trong cái biến configuration
+    //    IConfiguration configuration = new ConfigurationBuilder() // new 1 object Configuration Builder
+    //                                                              //SetBasePath: tác dụng là để nhắc cho configuration biết là tìm file app settings ở đâu
+    //                                    .SetBasePath(Directory.GetCurrentDirectory())
+    //                                    // tìm file app settings và add thật sự
+    //                                    // optional nếu để true có nghĩa là không tìm thấy file thì sẽ không crash app -> bỏ qua luôn
+    //                                    //  reloadOnChange: tự reload nội dung file lại mà không cần restart app nếu có ai sửa bên trong file
+    //                                    .AddJsonFile("appsettings.json", true, true)
+    //                                    .Build();
 
-        // vào bên trong configuration đã có app settings
-        // OUTPUT: connection string sẽ là "Server=localhost;Database=DemoCompany;User Id=sa;Password=12345;TrustServerCertificate=True"
-        var connectionString = configuration.GetConnectionString("DefaultConnection");
+    //    // vào bên trong configuration đã có app settings
+    //    // OUTPUT: connection string sẽ là "Server=localhost;Database=DemoCompany;User Id=sa;Password=12345;TrustServerCertificate=True"
+    //    var connectionString = configuration.GetConnectionString("DefaultConnection");
 
-        // mang cái chuỗi gọi sql server
-        optionsBuilder.UseSqlServer(connectionString);
-    }
+    //    // mang cái chuỗi gọi sql server
+    //    optionsBuilder.UseSqlServer(connectionString);
+    //}
 
 
 

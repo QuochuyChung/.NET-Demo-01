@@ -1,6 +1,8 @@
 ﻿
 using DemoCompany.BLL;
 using DemoCompany.DAL;
+using DemoCompany.DAL.Models;
+using Microsoft.EntityFrameworkCore;
 
 namespace DemoCompany.API
 {
@@ -36,14 +38,17 @@ namespace DemoCompany.API
               
              
              */
+            builder.Services.AddDbContext<DemoCompanyContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
-
-          builder.Services.AddScoped<EmployeeRepository>();
+            builder.Services.AddScoped<EmployeeRepository>();
           builder.Services.AddScoped<DepartmentRepository>();
 
             builder.Services.AddScoped<UnitOfWork>();
 
             builder.Services.AddScoped<EmployeeService>();
+            builder.Services.AddScoped<DepartmentService>();
+
+            builder.Services.AddScoped<DepartmentRepository>();
 
             var app = builder.Build();
 

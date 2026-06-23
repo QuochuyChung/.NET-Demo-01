@@ -1,4 +1,5 @@
 ﻿using DemoCompany.DAL.Models;
+using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -7,13 +8,13 @@ using System.Threading.Tasks;
 
 namespace DemoCompany.DAL
 {
-    public class DepartmentRepository : IDisposable
+    public class DepartmentRepository
     {
         private DemoCompanyContext _context;
 
-        public DepartmentRepository()
+        public DepartmentRepository(DemoCompanyContext context)
         {
-            _context = new DemoCompanyContext();    
+            _context = context;
         }
 
         public Department? GetDepartmentById(int id)
@@ -28,9 +29,17 @@ namespace DemoCompany.DAL
             return department;
         }
 
-        public void Dispose()
+        public bool CreateNewDepartment(Department department)
         {
-            _context.Dispose();
+            // mới nằm ở trên ram
+            _context.Add(department);
+
+            // Add, Update, Delete -> RAM
+
+            // gọi trực tiếp xuống db
+            _context.SaveChanges();
+
+            return true;
         }
     }
 }
