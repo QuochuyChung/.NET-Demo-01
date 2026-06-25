@@ -17,7 +17,7 @@ namespace DemoCompany.BLL
 
         /*
          Service là nơi chuyển giao từ request -> entity -> Database -> response
-         
+         DbContext context = new DbContext();
          */
 
         public EmployeeService(EmployeeRepository empRepo, DepartmentRepository depRepo, UnitOfWork unitOfWork)
@@ -65,7 +65,7 @@ namespace DemoCompany.BLL
 
             Employee? existEmp = _empRepo.GetByCondition(e => e.Email == request.Email || e.Phone == request.PhoneNumber);
 
-            if (existEmp == null)
+            if (existEmp != null)
             {
                 return null;
             }
@@ -108,6 +108,46 @@ namespace DemoCompany.BLL
 
             return response;
         }
+
+        // SOFT VÀ HARD DELETE
+        /*
+         + SOFT DELETE: IsActived, IsDeleted - IMPLEMENT THEO KIỂU NÀY
+         + HARD DELETE: Xóa thật, xóa ra khỏi DB
+         */
+
+        public DeleteEmployeeResponseDTO? SoftDeleteEmployee(DeleteEmployeeRequestDTO request)
+        {
+            Employee? existEmployee = _empRepo.GetEmployeeById(request.EmployeeID);
+
+            if (existEmployee == null)
+            {
+                return null;
+            }
+
+             _empRepo.SoftDelete(existEmployee.EmployeeId);
+
+            int deleteResult =  _unitOfWork.SaveChanges();
+
+            if (deleteResult <= 0)
+            {
+                return new DeleteEmployeeResponseDTO()
+                {
+                    EmployeeName = existEmployee.FullName,
+                    Message = "Xóa không thành công "
+                };
+            };
+
+
+            DeleteEmployeeResponseDTO response = new DeleteEmployeeResponseDTO
+            {
+                EmployeeName = existEmployee.FullName,
+                Message = "Đã xóa thành công "
+            };
+
+            return response;
+    
+        }
+
 
 
     }

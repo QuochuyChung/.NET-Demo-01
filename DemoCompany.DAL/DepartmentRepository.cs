@@ -14,7 +14,7 @@ namespace DemoCompany.DAL
 
         public DepartmentRepository(DemoCompanyContext context)
         {
-            _context = context;
+             _context = context;
         }
 
         public Department? GetDepartmentById(int id)

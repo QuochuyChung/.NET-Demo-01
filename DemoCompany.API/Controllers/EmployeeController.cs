@@ -41,6 +41,34 @@ namespace DemoCompany.API.Controllers
             return Ok(result);
 
         }
+
+        //[HttpPatch] // HTTP Patch cũng giống như HTTP Put => cũng đều là cập nhật dữ liệu
+        //// HTTP Patch chỉ nên định nghĩa khi mà mình chỉ cập nhật 1 field duy nhất
+        //// HTTP Put mình sẽ định nghĩa khi mà mình cập nhật cả 1 object, tối thiểu là 2 fields đổ lên
+        ///
+        [HttpDelete("soft-delete")]
+        public ActionResult SoftDeleteEmployee(DeleteEmployeeRequestDTO request)
+        {
+            DeleteEmployeeResponseDTO? result = _service.SoftDeleteEmployee(request);
+
+            if (result == null) 
+            {
+                return BadRequest("Đưa lên tào lao");
+            
+            }
+
+            return Ok(result);
+        }
+
+
+
+
+
+        
+        
+
+
+
     }
 
    

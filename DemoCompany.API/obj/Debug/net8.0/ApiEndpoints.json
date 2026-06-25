@@ -60,5 +60,21 @@
         "StatusCode": 200
       }
     ]
+  },
+  {
+    "ContainingType": "DemoCompany.API.Controllers.EmployeeController",
+    "Method": "SoftDeleteEmployee",
+    "RelativePath": "api/Employee/soft-delete",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "DemoCompany.BLL.DTO.DeleteEmployeeRequestDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
   }
 ]

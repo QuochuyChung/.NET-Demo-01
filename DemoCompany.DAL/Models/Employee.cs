@@ -23,6 +23,11 @@ public partial class Employee
 
     public bool? IsActive { get; set; }
 
-    //Navigation Property
+    public virtual ICollection<Attendance> Attendances { get; set; } = new List<Attendance>();
+
     public virtual Department? Department { get; set; }
+
+    public virtual ICollection<EmployeeProject> EmployeeProjects { get; set; } = new List<EmployeeProject>();
+
+    public virtual ICollection<SalaryHistory> SalaryHistories { get; set; } = new List<SalaryHistory>();
 }

@@ -16,43 +16,53 @@ public partial class DemoCompanyContext : DbContext
     {
     }
 
+    public virtual DbSet<Attendance> Attendances { get; set; }
+
     public virtual DbSet<Department> Departments { get; set; }
 
     public virtual DbSet<Employee> Employees { get; set; }
 
+    public virtual DbSet<EmployeeProject> EmployeeProjects { get; set; }
 
-    /*
-    + Để mà thiết lập cầu nối giữa Sql Server và .NET thì mình phải qua DbContext
-    + OnConfiguring này là nơi cấu hình cầu nối DbContext
-    + Có 2 cách để thiết lập cầu nối:
-        - Thông qua hàm OnConfiguring
-        - Thông qua cơ chế Dependency Injection bên file program
-     */
+    public virtual DbSet<Project> Projects { get; set; }
+
+    public virtual DbSet<SalaryHistory> SalaryHistories { get; set; }
 
     //protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     //{
-    //    // configuration mình sẽ tìm cấu hình của file app settings xong nạp vào trong cái biến configuration
-    //    IConfiguration configuration = new ConfigurationBuilder() // new 1 object Configuration Builder
-    //                                                              //SetBasePath: tác dụng là để nhắc cho configuration biết là tìm file app settings ở đâu
+    //    IConfiguration configuration = new ConfigurationBuilder()
     //                                    .SetBasePath(Directory.GetCurrentDirectory())
-    //                                    // tìm file app settings và add thật sự
-    //                                    // optional nếu để true có nghĩa là không tìm thấy file thì sẽ không crash app -> bỏ qua luôn
-    //                                    //  reloadOnChange: tự reload nội dung file lại mà không cần restart app nếu có ai sửa bên trong file
-    //                                    .AddJsonFile("appsettings.json", true, true)
+    //                                    .AddJsonFile("appsettings.json", optional: true, reloadOnChange: true)
     //                                    .Build();
 
-    //    // vào bên trong configuration đã có app settings
-    //    // OUTPUT: connection string sẽ là "Server=localhost;Database=DemoCompany;User Id=sa;Password=12345;TrustServerCertificate=True"
-    //    var connectionString = configuration.GetConnectionString("DefaultConnection");
+    //    string? connectionString = configuration.GetConnectionString("DefaultConnection");
 
-    //    // mang cái chuỗi gọi sql server
-    //    optionsBuilder.UseSqlServer(connectionString);
+    //    if (connectionString != null)
+    //    {
+    //        optionsBuilder.UseSqlServer(connectionString);
+    //    }
     //}
 
-
+    //}
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
+        modelBuilder.Entity<Attendance>(entity =>
+        {
+            entity.HasKey(e => e.AttendanceId).HasName("PK__Attendan__8B69261CBA008B9F");
+
+            entity.ToTable("Attendance");
+
+            entity.HasIndex(e => new { e.EmployeeId, e.WorkDate }, "UQ_Attendance_Employee_Date").IsUnique();
+
+            entity.Property(e => e.Note).HasMaxLength(300);
+
+            entity.HasOne(d => d.Employee).WithMany(p => p.Attendances)
+                .HasForeignKey(d => d.EmployeeId)
+                .OnDelete(DeleteBehavior.ClientSetNull)
+                .HasConstraintName("FK_Attendance_Employee");
+        });
+
         modelBuilder.Entity<Department>(entity =>
         {
             entity.HasKey(e => e.DepartmentId).HasName("PK__Departme__B2079BED1C6DB1BD");
@@ -87,6 +97,67 @@ public partial class DemoCompanyContext : DbContext
             entity.HasOne(d => d.Department).WithMany(p => p.Employees)
                 .HasForeignKey(d => d.DepartmentId)
                 .HasConstraintName("FK__Employee__Depart__286302EC");
+        });
+
+        modelBuilder.Entity<EmployeeProject>(entity =>
+        {
+            entity.HasKey(e => new { e.EmployeeId, e.ProjectId });
+
+            entity.ToTable("EmployeeProject");
+
+            entity.Property(e => e.AssignedDate)
+                .HasDefaultValueSql("(getdate())")
+                .HasColumnType("datetime");
+            entity.Property(e => e.Role)
+                .HasMaxLength(100)
+                .HasDefaultValue("Member");
+
+            entity.HasOne(d => d.Employee).WithMany(p => p.EmployeeProjects)
+                .HasForeignKey(d => d.EmployeeId)
+                .OnDelete(DeleteBehavior.ClientSetNull)
+                .HasConstraintName("FK_EmployeeProject_Employee");
+
+            entity.HasOne(d => d.Project).WithMany(p => p.EmployeeProjects)
+                .HasForeignKey(d => d.ProjectId)
+                .OnDelete(DeleteBehavior.ClientSetNull)
+                .HasConstraintName("FK_EmployeeProject_Project");
+        });
+
+        modelBuilder.Entity<Project>(entity =>
+        {
+            entity.HasKey(e => e.ProjectId).HasName("PK__Project__761ABEF0B61DD859");
+
+            entity.ToTable("Project");
+
+            entity.Property(e => e.Description).HasMaxLength(500);
+            entity.Property(e => e.ProjectName).HasMaxLength(200);
+            entity.Property(e => e.Status)
+                .HasMaxLength(50)
+                .HasDefaultValue("Planning");
+
+            entity.HasOne(d => d.Department).WithMany(p => p.Projects)
+                .HasForeignKey(d => d.DepartmentId)
+                .OnDelete(DeleteBehavior.ClientSetNull)
+                .HasConstraintName("FK_Project_Department");
+        });
+
+        modelBuilder.Entity<SalaryHistory>(entity =>
+        {
+            entity.HasKey(e => e.SalaryHistoryId).HasName("PK__SalaryHi__25D843F6F5F3FEA8");
+
+            entity.ToTable("SalaryHistory");
+
+            entity.Property(e => e.EffectiveDate)
+                .HasDefaultValueSql("(getdate())")
+                .HasColumnType("datetime");
+            entity.Property(e => e.NewSalary).HasColumnType("decimal(18, 2)");
+            entity.Property(e => e.OldSalary).HasColumnType("decimal(18, 2)");
+            entity.Property(e => e.Reason).HasMaxLength(300);
+
+            entity.HasOne(d => d.Employee).WithMany(p => p.SalaryHistories)
+                .HasForeignKey(d => d.EmployeeId)
+                .OnDelete(DeleteBehavior.ClientSetNull)
+                .HasConstraintName("FK_SalaryHistory_Employee");
         });
 
         OnModelCreatingPartial(modelBuilder);

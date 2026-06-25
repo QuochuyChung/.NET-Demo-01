@@ -23,10 +23,9 @@ namespace DemoCompany.DAL
             + Nếu đã đăng kí bên file DbContext thông qua hàm OnConfiguring thì phải tự khai báo thủ công cho _context
          */
 
-        public EmployeeRepository()
+        public EmployeeRepository(DemoCompanyContext context)
         {
-            // Khai báo thủ công - mở connection
-            _context = new DemoCompanyContext();
+            _context = context;            
         }
 
         public void Dispose()
@@ -45,7 +44,7 @@ namespace DemoCompany.DAL
         {
             List<Employee> result = new List<Employee>();
 
-            result = _context.Employees.Include(e => e.Department).ToList();
+            result = _context.Employees.Where(e => e.IsActive == true).Include(e => e.Department).ToList();
 
          
             return result;
@@ -123,6 +122,23 @@ namespace DemoCompany.DAL
             return emp;
         }
 
+
+        public bool SoftDelete(int employeeId)
+        {
+            // Tìm chính xác Employee nào tương ứng với id
+            Employee? employee = _context.Employees.FirstOrDefault(emp => emp.EmployeeId == employeeId);
+
+            if (employee != null)
+            {
+                employee.IsActive = false;
+
+                _context.Update(employee);
+
+                return true;
+            }
+
+            return false;
+        }
 
     }
 }

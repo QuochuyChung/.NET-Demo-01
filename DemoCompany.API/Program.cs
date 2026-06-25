@@ -41,7 +41,7 @@ namespace DemoCompany.API
             builder.Services.AddDbContext<DemoCompanyContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
             builder.Services.AddScoped<EmployeeRepository>();
-          builder.Services.AddScoped<DepartmentRepository>();
+            builder.Services.AddScoped<DepartmentRepository>();
 
             builder.Services.AddScoped<UnitOfWork>();
 

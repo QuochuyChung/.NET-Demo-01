@@ -11,9 +11,9 @@ namespace DemoCompany.DAL
     {
         private readonly DemoCompanyContext _context;
 
-        public UnitOfWork()
+        public UnitOfWork(DemoCompanyContext context)
         {
-            _context = new DemoCompanyContext(); 
+            _context = context;
         }
 
         public void Dispose()

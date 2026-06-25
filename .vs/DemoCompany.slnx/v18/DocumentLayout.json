@@ -7,76 +7,96 @@
       "RelativeMoniker": "D:0:0:{6F56C443-04AD-5B95-680C-113AAFA18FC0}|DemoCompany.API\\DemoCompany.API.csproj|solutionrelative:democompany.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6F56C443-04AD-5B95-680C-113AAFA18FC0}|DemoCompany.API\\DemoCompany.API.csproj|d:\\teaching\\democompany\\democompany.api\\controllers\\departmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6F56C443-04AD-5B95-680C-113AAFA18FC0}|DemoCompany.API\\DemoCompany.API.csproj|solutionrelative:democompany.api\\controllers\\departmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{6F56C443-04AD-5B95-680C-113AAFA18FC0}|DemoCompany.API\\DemoCompany.API.csproj|d:\\teaching\\democompany\\democompany.api\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6F56C443-04AD-5B95-680C-113AAFA18FC0}|DemoCompany.API\\DemoCompany.API.csproj|solutionrelative:democompany.api\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4EA74068-E7A5-5A06-69B1-DF5E52A04EBA}|DemoCompany.BLL\\DemoCompany.BLL.csproj|d:\\teaching\\democompany\\democompany.bll\\dto\\createdepartmentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4EA74068-E7A5-5A06-69B1-DF5E52A04EBA}|DemoCompany.BLL\\DemoCompany.BLL.csproj|solutionrelative:democompany.bll\\dto\\createdepartmentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4EA74068-E7A5-5A06-69B1-DF5E52A04EBA}|DemoCompany.BLL\\DemoCompany.BLL.csproj|d:\\teaching\\democompany\\democompany.bll\\departmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4EA74068-E7A5-5A06-69B1-DF5E52A04EBA}|DemoCompany.BLL\\DemoCompany.BLL.csproj|solutionrelative:democompany.bll\\departmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2C345C5B-9551-29C0-6E33-B4DF487F01D2}|DemoCompany.DAL\\DemoCompany.DAL.csproj|d:\\teaching\\democompany\\democompany.dal\\departmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2C345C5B-9551-29C0-6E33-B4DF487F01D2}|DemoCompany.DAL\\DemoCompany.DAL.csproj|solutionrelative:democompany.dal\\departmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2C345C5B-9551-29C0-6E33-B4DF487F01D2}|DemoCompany.DAL\\DemoCompany.DAL.csproj|d:\\teaching\\democompany\\democompany.dal\\models\\democompanycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2C345C5B-9551-29C0-6E33-B4DF487F01D2}|DemoCompany.DAL\\DemoCompany.DAL.csproj|solutionrelative:democompany.dal\\models\\democompanycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4EA74068-E7A5-5A06-69B1-DF5E52A04EBA}|DemoCompany.BLL\\DemoCompany.BLL.csproj|d:\\teaching\\democompany\\democompany.bll\\dto\\createemployeedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4EA74068-E7A5-5A06-69B1-DF5E52A04EBA}|DemoCompany.BLL\\DemoCompany.BLL.csproj|solutionrelative:democompany.bll\\dto\\createemployeedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4EA74068-E7A5-5A06-69B1-DF5E52A04EBA}|DemoCompany.BLL\\DemoCompany.BLL.csproj|d:\\teaching\\democompany\\democompany.bll\\dto\\getemployeeresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4EA74068-E7A5-5A06-69B1-DF5E52A04EBA}|DemoCompany.BLL\\DemoCompany.BLL.csproj|solutionrelative:democompany.bll\\dto\\getemployeeresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4EA74068-E7A5-5A06-69B1-DF5E52A04EBA}|DemoCompany.BLL\\DemoCompany.BLL.csproj|d:\\teaching\\democompany\\democompany.bll\\employeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4EA74068-E7A5-5A06-69B1-DF5E52A04EBA}|DemoCompany.BLL\\DemoCompany.BLL.csproj|solutionrelative:democompany.bll\\employeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2C345C5B-9551-29C0-6E33-B4DF487F01D2}|DemoCompany.DAL\\DemoCompany.DAL.csproj|d:\\teaching\\democompany\\democompany.dal\\models\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2C345C5B-9551-29C0-6E33-B4DF487F01D2}|DemoCompany.DAL\\DemoCompany.DAL.csproj|solutionrelative:democompany.dal\\models\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2C345C5B-9551-29C0-6E33-B4DF487F01D2}|DemoCompany.DAL\\DemoCompany.DAL.csproj|d:\\teaching\\democompany\\democompany.dal\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2C345C5B-9551-29C0-6E33-B4DF487F01D2}|DemoCompany.DAL\\DemoCompany.DAL.csproj|solutionrelative:democompany.dal\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2C345C5B-9551-29C0-6E33-B4DF487F01D2}|DemoCompany.DAL\\DemoCompany.DAL.csproj|d:\\teaching\\democompany\\democompany.dal\\departmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C345C5B-9551-29C0-6E33-B4DF487F01D2}|DemoCompany.DAL\\DemoCompany.DAL.csproj|solutionrelative:democompany.dal\\departmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2C345C5B-9551-29C0-6E33-B4DF487F01D2}|DemoCompany.DAL\\DemoCompany.DAL.csproj|d:\\teaching\\democompany\\democompany.dal\\employeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2C345C5B-9551-29C0-6E33-B4DF487F01D2}|DemoCompany.DAL\\DemoCompany.DAL.csproj|solutionrelative:democompany.dal\\employeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6F56C443-04AD-5B95-680C-113AAFA18FC0}|DemoCompany.API\\DemoCompany.API.csproj|d:\\teaching\\democompany\\democompany.api\\democompany.api.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
-      "RelativeMoniker": "D:0:0:{6F56C443-04AD-5B95-680C-113AAFA18FC0}|DemoCompany.API\\DemoCompany.API.csproj|solutionrelative:democompany.api\\democompany.api.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+      "AbsoluteMoniker": "D:0:0:{2C345C5B-9551-29C0-6E33-B4DF487F01D2}|DemoCompany.DAL\\DemoCompany.DAL.csproj|d:\\teaching\\democompany\\democompany.dal\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C345C5B-9551-29C0-6E33-B4DF487F01D2}|DemoCompany.DAL\\DemoCompany.DAL.csproj|solutionrelative:democompany.dal\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4EA74068-E7A5-5A06-69B1-DF5E52A04EBA}|DemoCompany.BLL\\DemoCompany.BLL.csproj|d:\\teaching\\democompany\\democompany.bll\\dto\\deleteemployeedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4EA74068-E7A5-5A06-69B1-DF5E52A04EBA}|DemoCompany.BLL\\DemoCompany.BLL.csproj|solutionrelative:democompany.bll\\dto\\deleteemployeedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4EA74068-E7A5-5A06-69B1-DF5E52A04EBA}|DemoCompany.BLL\\DemoCompany.BLL.csproj|d:\\teaching\\democompany\\democompany.bll\\employeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4EA74068-E7A5-5A06-69B1-DF5E52A04EBA}|DemoCompany.BLL\\DemoCompany.BLL.csproj|solutionrelative:democompany.bll\\employeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C345C5B-9551-29C0-6E33-B4DF487F01D2}|DemoCompany.DAL\\DemoCompany.DAL.csproj|d:\\teaching\\democompany\\democompany.dal\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C345C5B-9551-29C0-6E33-B4DF487F01D2}|DemoCompany.DAL\\DemoCompany.DAL.csproj|solutionrelative:democompany.dal\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C345C5B-9551-29C0-6E33-B4DF487F01D2}|DemoCompany.DAL\\DemoCompany.DAL.csproj|d:\\teaching\\democompany\\democompany.dal\\models\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C345C5B-9551-29C0-6E33-B4DF487F01D2}|DemoCompany.DAL\\DemoCompany.DAL.csproj|solutionrelative:democompany.dal\\models\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C345C5B-9551-29C0-6E33-B4DF487F01D2}|DemoCompany.DAL\\DemoCompany.DAL.csproj|d:\\teaching\\democompany\\democompany.dal\\models\\attendance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C345C5B-9551-29C0-6E33-B4DF487F01D2}|DemoCompany.DAL\\DemoCompany.DAL.csproj|solutionrelative:democompany.dal\\models\\attendance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4EA74068-E7A5-5A06-69B1-DF5E52A04EBA}|DemoCompany.BLL\\DemoCompany.BLL.csproj|d:\\teaching\\democompany\\democompany.bll\\departmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4EA74068-E7A5-5A06-69B1-DF5E52A04EBA}|DemoCompany.BLL\\DemoCompany.BLL.csproj|solutionrelative:democompany.bll\\departmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4EA74068-E7A5-5A06-69B1-DF5E52A04EBA}|DemoCompany.BLL\\DemoCompany.BLL.csproj|d:\\teaching\\democompany\\democompany.bll\\dto\\createemployeedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4EA74068-E7A5-5A06-69B1-DF5E52A04EBA}|DemoCompany.BLL\\DemoCompany.BLL.csproj|solutionrelative:democompany.bll\\dto\\createemployeedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4EA74068-E7A5-5A06-69B1-DF5E52A04EBA}|DemoCompany.BLL\\DemoCompany.BLL.csproj|d:\\teaching\\democompany\\democompany.bll\\dto\\createdepartmentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4EA74068-E7A5-5A06-69B1-DF5E52A04EBA}|DemoCompany.BLL\\DemoCompany.BLL.csproj|solutionrelative:democompany.bll\\dto\\createdepartmentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F56C443-04AD-5B95-680C-113AAFA18FC0}|DemoCompany.API\\DemoCompany.API.csproj|d:\\teaching\\democompany\\democompany.api\\controllers\\departmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F56C443-04AD-5B95-680C-113AAFA18FC0}|DemoCompany.API\\DemoCompany.API.csproj|solutionrelative:democompany.api\\controllers\\departmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6F56C443-04AD-5B95-680C-113AAFA18FC0}|DemoCompany.API\\DemoCompany.API.csproj|d:\\teaching\\democompany\\democompany.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{6F56C443-04AD-5B95-680C-113AAFA18FC0}|DemoCompany.API\\DemoCompany.API.csproj|solutionrelative:democompany.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2C345C5B-9551-29C0-6E33-B4DF487F01D2}|DemoCompany.DAL\\DemoCompany.DAL.csproj|d:\\teaching\\democompany\\democompany.dal\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2C345C5B-9551-29C0-6E33-B4DF487F01D2}|DemoCompany.DAL\\DemoCompany.DAL.csproj|solutionrelative:democompany.dal\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2C345C5B-9551-29C0-6E33-B4DF487F01D2}|DemoCompany.DAL\\DemoCompany.DAL.csproj|d:\\teaching\\democompany\\democompany.dal\\democompany.dal.csproj.backup.tmp||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{2C345C5B-9551-29C0-6E33-B4DF487F01D2}|DemoCompany.DAL\\DemoCompany.DAL.csproj|solutionrelative:democompany.dal\\democompany.dal.csproj.backup.tmp||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6F56C443-04AD-5B95-680C-113AAFA18FC0}|DemoCompany.API\\DemoCompany.API.csproj|d:\\teaching\\democompany\\democompany.api\\democompany.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{6F56C443-04AD-5B95-680C-113AAFA18FC0}|DemoCompany.API\\DemoCompany.API.csproj|solutionrelative:democompany.api\\democompany.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{2C345C5B-9551-29C0-6E33-B4DF487F01D2}|DemoCompany.DAL\\DemoCompany.DAL.csproj|d:\\teaching\\democompany\\democompany.dal\\models\\salaryhistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C345C5B-9551-29C0-6E33-B4DF487F01D2}|DemoCompany.DAL\\DemoCompany.DAL.csproj|solutionrelative:democompany.dal\\models\\salaryhistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C345C5B-9551-29C0-6E33-B4DF487F01D2}|DemoCompany.DAL\\DemoCompany.DAL.csproj|d:\\teaching\\democompany\\democompany.dal\\models\\project.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C345C5B-9551-29C0-6E33-B4DF487F01D2}|DemoCompany.DAL\\DemoCompany.DAL.csproj|solutionrelative:democompany.dal\\models\\project.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C345C5B-9551-29C0-6E33-B4DF487F01D2}|DemoCompany.DAL\\DemoCompany.DAL.csproj|d:\\teaching\\democompany\\democompany.dal\\models\\employeeproject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C345C5B-9551-29C0-6E33-B4DF487F01D2}|DemoCompany.DAL\\DemoCompany.DAL.csproj|solutionrelative:democompany.dal\\models\\employeeproject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2C345C5B-9551-29C0-6E33-B4DF487F01D2}|DemoCompany.DAL\\DemoCompany.DAL.csproj|d:\\teaching\\democompany\\democompany.dal\\democompany.dal.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{2C345C5B-9551-29C0-6E33-B4DF487F01D2}|DemoCompany.DAL\\DemoCompany.DAL.csproj|solutionrelative:democompany.dal\\democompany.dal.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2C345C5B-9551-29C0-6E33-B4DF487F01D2}|DemoCompany.DAL\\DemoCompany.DAL.csproj|d:\\teaching\\democompany\\democompany.dal\\democompany.dal.csproj.backup.tmp||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{2C345C5B-9551-29C0-6E33-B4DF487F01D2}|DemoCompany.DAL\\DemoCompany.DAL.csproj|solutionrelative:democompany.dal\\democompany.dal.csproj.backup.tmp||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+      "AbsoluteMoniker": "D:0:0:{4EA74068-E7A5-5A06-69B1-DF5E52A04EBA}|DemoCompany.BLL\\DemoCompany.BLL.csproj|d:\\teaching\\democompany\\democompany.bll\\dto\\getemployeeresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4EA74068-E7A5-5A06-69B1-DF5E52A04EBA}|DemoCompany.BLL\\DemoCompany.BLL.csproj|solutionrelative:democompany.bll\\dto\\getemployeeresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F56C443-04AD-5B95-680C-113AAFA18FC0}|DemoCompany.API\\DemoCompany.API.csproj|d:\\teaching\\democompany\\democompany.api\\democompany.api.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{6F56C443-04AD-5B95-680C-113AAFA18FC0}|DemoCompany.API\\DemoCompany.API.csproj|solutionrelative:democompany.api\\democompany.api.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F56C443-04AD-5B95-680C-113AAFA18FC0}|DemoCompany.API\\DemoCompany.API.csproj|d:\\teaching\\democompany\\democompany.api\\democompany.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{6F56C443-04AD-5B95-680C-113AAFA18FC0}|DemoCompany.API\\DemoCompany.API.csproj|solutionrelative:democompany.api\\democompany.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -112,40 +132,183 @@
               "RelativeDocumentMoniker": "DemoCompany.API\\Program.cs",
               "ToolTip": "D:\\Teaching\\DemoCompany\\DemoCompany.API\\Program.cs",
               "RelativeToolTip": "DemoCompany.API\\Program.cs",
-              "ViewState": "AgIAAEMAAAAAAAAAAAAAwEgAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAzwC0AAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-18T14:20:52.947Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "EmployeeController.cs",
-              "DocumentMoniker": "D:\\Teaching\\DemoCompany\\DemoCompany.API\\Controllers\\EmployeeController.cs",
-              "RelativeDocumentMoniker": "DemoCompany.API\\Controllers\\EmployeeController.cs",
-              "ToolTip": "D:\\Teaching\\DemoCompany\\DemoCompany.API\\Controllers\\EmployeeController.cs",
-              "RelativeToolTip": "DemoCompany.API\\Controllers\\EmployeeController.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAAACQAAAANAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "UnitOfWork.cs",
+              "DocumentMoniker": "D:\\Teaching\\DemoCompany\\DemoCompany.DAL\\UnitOfWork.cs",
+              "RelativeDocumentMoniker": "DemoCompany.DAL\\UnitOfWork.cs",
+              "ToolTip": "D:\\Teaching\\DemoCompany\\DemoCompany.DAL\\UnitOfWork.cs",
+              "RelativeToolTip": "DemoCompany.DAL\\UnitOfWork.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-18T15:15:21.181Z",
+              "WhenOpened": "2026-06-18T15:37:16.244Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
+              "Title": "EmployeeRepository.cs",
+              "DocumentMoniker": "D:\\Teaching\\DemoCompany\\DemoCompany.DAL\\EmployeeRepository.cs",
+              "RelativeDocumentMoniker": "DemoCompany.DAL\\EmployeeRepository.cs",
+              "ToolTip": "D:\\Teaching\\DemoCompany\\DemoCompany.DAL\\EmployeeRepository.cs",
+              "RelativeToolTip": "DemoCompany.DAL\\EmployeeRepository.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAuwBsAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-18T14:21:57.092Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "DepartmentRepository.cs",
               "DocumentMoniker": "D:\\Teaching\\DemoCompany\\DemoCompany.DAL\\DepartmentRepository.cs",
               "RelativeDocumentMoniker": "DemoCompany.DAL\\DepartmentRepository.cs",
               "ToolTip": "D:\\Teaching\\DemoCompany\\DemoCompany.DAL\\DepartmentRepository.cs",
               "RelativeToolTip": "DemoCompany.DAL\\DepartmentRepository.cs",
-              "ViewState": "AgIAACEAAAAAAAAAAAAAwCoAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwBAAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-18T15:20:41.856Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
+              "Title": "DeleteEmployeeDTO.cs",
+              "DocumentMoniker": "D:\\Teaching\\DemoCompany\\DemoCompany.BLL\\DTO\\DeleteEmployeeDTO.cs",
+              "RelativeDocumentMoniker": "DemoCompany.BLL\\DTO\\DeleteEmployeeDTO.cs",
+              "ToolTip": "D:\\Teaching\\DemoCompany\\DemoCompany.BLL\\DTO\\DeleteEmployeeDTO.cs",
+              "RelativeToolTip": "DemoCompany.BLL\\DTO\\DeleteEmployeeDTO.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAA5wBEAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-25T14:44:24.878Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EmployeeController.cs",
+              "DocumentMoniker": "D:\\Teaching\\DemoCompany\\DemoCompany.API\\Controllers\\EmployeeController.cs",
+              "RelativeDocumentMoniker": "DemoCompany.API\\Controllers\\EmployeeController.cs",
+              "ToolTip": "D:\\Teaching\\DemoCompany\\DemoCompany.API\\Controllers\\EmployeeController.cs",
+              "RelativeToolTip": "DemoCompany.API\\Controllers\\EmployeeController.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAkwDwAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-18T15:15:21.181Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DemoCompanyContext.cs",
+              "DocumentMoniker": "D:\\Teaching\\DemoCompany\\DemoCompany.DAL\\Models\\DemoCompanyContext.cs",
+              "RelativeDocumentMoniker": "DemoCompany.DAL\\Models\\DemoCompanyContext.cs",
+              "ToolTip": "D:\\Teaching\\DemoCompany\\DemoCompany.DAL\\Models\\DemoCompanyContext.cs",
+              "RelativeToolTip": "DemoCompany.DAL\\Models\\DemoCompanyContext.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAYwCcAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-18T14:33:25.104Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "DepartmentService.cs",
+              "DocumentMoniker": "D:\\Teaching\\DemoCompany\\DemoCompany.BLL\\DepartmentService.cs",
+              "RelativeDocumentMoniker": "DemoCompany.BLL\\DepartmentService.cs",
+              "ToolTip": "D:\\Teaching\\DemoCompany\\DemoCompany.BLL\\DepartmentService.cs",
+              "RelativeToolTip": "DemoCompany.BLL\\DepartmentService.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAuwDwAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-23T14:53:27.079Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "DepartmentController.cs",
+              "DocumentMoniker": "D:\\Teaching\\DemoCompany\\DemoCompany.API\\Controllers\\DepartmentController.cs",
+              "RelativeDocumentMoniker": "DemoCompany.API\\Controllers\\DepartmentController.cs",
+              "ToolTip": "D:\\Teaching\\DemoCompany\\DemoCompany.API\\Controllers\\DepartmentController.cs",
+              "RelativeToolTip": "DemoCompany.API\\Controllers\\DepartmentController.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwB4AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-23T15:09:51.239Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Department.cs",
+              "DocumentMoniker": "D:\\Teaching\\DemoCompany\\DemoCompany.DAL\\Models\\Department.cs",
+              "RelativeDocumentMoniker": "DemoCompany.DAL\\Models\\Department.cs",
+              "ToolTip": "D:\\Teaching\\DemoCompany\\DemoCompany.DAL\\Models\\Department.cs",
+              "RelativeToolTip": "DemoCompany.DAL\\Models\\Department.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAA3wAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-18T14:24:05Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "D:\\Teaching\\DemoCompany\\DemoCompany.DAL\\Models\\Employee.cs",
+              "RelativeDocumentMoniker": "DemoCompany.DAL\\Models\\Employee.cs",
+              "ToolTip": "D:\\Teaching\\DemoCompany\\DemoCompany.DAL\\Models\\Employee.cs",
+              "RelativeToolTip": "DemoCompany.DAL\\Models\\Employee.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAA2wBMAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-18T14:24:05.354Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "EmployeeService.cs",
+              "DocumentMoniker": "D:\\Teaching\\DemoCompany\\DemoCompany.BLL\\EmployeeService.cs",
+              "RelativeDocumentMoniker": "DemoCompany.BLL\\EmployeeService.cs",
+              "ToolTip": "D:\\Teaching\\DemoCompany\\DemoCompany.BLL\\EmployeeService.cs",
+              "RelativeToolTip": "DemoCompany.BLL\\EmployeeService.cs",
+              "ViewState": "AgIAAGYAAAAAAAAAAAAwwJQAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-18T14:21:52.691Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Attendance.cs",
+              "DocumentMoniker": "D:\\Teaching\\DemoCompany\\DemoCompany.DAL\\Models\\Attendance.cs",
+              "RelativeDocumentMoniker": "DemoCompany.DAL\\Models\\Attendance.cs",
+              "ToolTip": "D:\\Teaching\\DemoCompany\\DemoCompany.DAL\\Models\\Attendance.cs",
+              "RelativeToolTip": "DemoCompany.DAL\\Models\\Attendance.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAA5wAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-25T14:33:24.22Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "CreateEmployeeDTO.cs",
+              "DocumentMoniker": "D:\\Teaching\\DemoCompany\\DemoCompany.BLL\\DTO\\CreateEmployeeDTO.cs",
+              "RelativeDocumentMoniker": "DemoCompany.BLL\\DTO\\CreateEmployeeDTO.cs",
+              "ToolTip": "D:\\Teaching\\DemoCompany\\DemoCompany.BLL\\DTO\\CreateEmployeeDTO.cs",
+              "RelativeToolTip": "DemoCompany.BLL\\DTO\\CreateEmployeeDTO.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAcwCEAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-18T14:26:25.744Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
               "Title": "CreateDepartmentDTO.cs",
               "DocumentMoniker": "D:\\Teaching\\DemoCompany\\DemoCompany.BLL\\DTO\\CreateDepartmentDTO.cs",
               "RelativeDocumentMoniker": "DemoCompany.BLL\\DTO\\CreateDepartmentDTO.cs",
@@ -158,192 +321,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "DepartmentController.cs",
-              "DocumentMoniker": "D:\\Teaching\\DemoCompany\\DemoCompany.API\\Controllers\\DepartmentController.cs",
-              "RelativeDocumentMoniker": "DemoCompany.API\\Controllers\\DepartmentController.cs",
-              "ToolTip": "D:\\Teaching\\DemoCompany\\DemoCompany.API\\Controllers\\DepartmentController.cs",
-              "RelativeToolTip": "DemoCompany.API\\Controllers\\DepartmentController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-23T15:09:51.239Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "DemoCompanyContext.cs",
-              "DocumentMoniker": "D:\\Teaching\\DemoCompany\\DemoCompany.DAL\\Models\\DemoCompanyContext.cs",
-              "RelativeDocumentMoniker": "DemoCompany.DAL\\Models\\DemoCompanyContext.cs",
-              "ToolTip": "D:\\Teaching\\DemoCompany\\DemoCompany.DAL\\Models\\DemoCompanyContext.cs",
-              "RelativeToolTip": "DemoCompany.DAL\\Models\\DemoCompanyContext.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAA7wCEAAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-18T14:33:25.104Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "DepartmentService.cs",
-              "DocumentMoniker": "D:\\Teaching\\DemoCompany\\DemoCompany.BLL\\DepartmentService.cs",
-              "RelativeDocumentMoniker": "DemoCompany.BLL\\DepartmentService.cs",
-              "ToolTip": "D:\\Teaching\\DemoCompany\\DemoCompany.BLL\\DepartmentService.cs",
-              "RelativeToolTip": "DemoCompany.BLL\\DepartmentService.cs",
-              "ViewState": "AgIAAC8AAAAAAAAAAAAQwDwAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-23T14:53:27.079Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "GetEmployeeResponseDTO.cs",
-              "DocumentMoniker": "D:\\Teaching\\DemoCompany\\DemoCompany.BLL\\DTO\\GetEmployeeResponseDTO.cs",
-              "RelativeDocumentMoniker": "DemoCompany.BLL\\DTO\\GetEmployeeResponseDTO.cs",
-              "ToolTip": "D:\\Teaching\\DemoCompany\\DemoCompany.BLL\\DTO\\GetEmployeeResponseDTO.cs",
-              "RelativeToolTip": "DemoCompany.BLL\\DTO\\GetEmployeeResponseDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-18T14:24:07.735Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "CreateEmployeeDTO.cs",
-              "DocumentMoniker": "D:\\Teaching\\DemoCompany\\DemoCompany.BLL\\DTO\\CreateEmployeeDTO.cs",
-              "RelativeDocumentMoniker": "DemoCompany.BLL\\DTO\\CreateEmployeeDTO.cs",
-              "ToolTip": "D:\\Teaching\\DemoCompany\\DemoCompany.BLL\\DTO\\CreateEmployeeDTO.cs",
-              "RelativeToolTip": "DemoCompany.BLL\\DTO\\CreateEmployeeDTO.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAuwAkAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-18T14:26:25.744Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "EmployeeService.cs",
-              "DocumentMoniker": "D:\\Teaching\\DemoCompany\\DemoCompany.BLL\\EmployeeService.cs",
-              "RelativeDocumentMoniker": "DemoCompany.BLL\\EmployeeService.cs",
-              "ToolTip": "D:\\Teaching\\DemoCompany\\DemoCompany.BLL\\EmployeeService.cs",
-              "RelativeToolTip": "DemoCompany.BLL\\EmployeeService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-18T14:21:52.691Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Department.cs",
-              "DocumentMoniker": "D:\\Teaching\\DemoCompany\\DemoCompany.DAL\\Models\\Department.cs",
-              "RelativeDocumentMoniker": "DemoCompany.DAL\\Models\\Department.cs",
-              "ToolTip": "D:\\Teaching\\DemoCompany\\DemoCompany.DAL\\Models\\Department.cs",
-              "RelativeToolTip": "DemoCompany.DAL\\Models\\Department.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAoAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-18T14:24:05Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Employee.cs",
-              "DocumentMoniker": "D:\\Teaching\\DemoCompany\\DemoCompany.DAL\\Models\\Employee.cs",
-              "RelativeDocumentMoniker": "DemoCompany.DAL\\Models\\Employee.cs",
-              "ToolTip": "D:\\Teaching\\DemoCompany\\DemoCompany.DAL\\Models\\Employee.cs",
-              "RelativeToolTip": "DemoCompany.DAL\\Models\\Employee.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAA+wBMAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-18T14:24:05.354Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "EmployeeRepository.cs",
-              "DocumentMoniker": "D:\\Teaching\\DemoCompany\\DemoCompany.DAL\\EmployeeRepository.cs",
-              "RelativeDocumentMoniker": "DemoCompany.DAL\\EmployeeRepository.cs",
-              "ToolTip": "D:\\Teaching\\DemoCompany\\DemoCompany.DAL\\EmployeeRepository.cs",
-              "RelativeToolTip": "DemoCompany.DAL\\EmployeeRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-18T14:21:57.092Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "DemoCompany.API",
-              "DocumentMoniker": "D:\\Teaching\\DemoCompany\\DemoCompany.API\\DemoCompany.API.csproj",
-              "RelativeDocumentMoniker": "DemoCompany.API\\DemoCompany.API.csproj",
-              "ToolTip": "D:\\Teaching\\DemoCompany\\DemoCompany.API\\DemoCompany.API.csproj",
-              "RelativeToolTip": "DemoCompany.API\\DemoCompany.API.csproj",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-06-18T15:15:19.402Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\Teaching\\DemoCompany\\DemoCompany.API\\appsettings.json",
               "RelativeDocumentMoniker": "DemoCompany.API\\appsettings.json",
               "ToolTip": "D:\\Teaching\\DemoCompany\\DemoCompany.API\\appsettings.json",
               "RelativeToolTip": "DemoCompany.API\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2026-06-23T14:27:13.964Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "UnitOfWork.cs",
-              "DocumentMoniker": "D:\\Teaching\\DemoCompany\\DemoCompany.DAL\\UnitOfWork.cs",
-              "RelativeDocumentMoniker": "DemoCompany.DAL\\UnitOfWork.cs",
-              "ToolTip": "D:\\Teaching\\DemoCompany\\DemoCompany.DAL\\UnitOfWork.cs",
-              "RelativeToolTip": "DemoCompany.DAL\\UnitOfWork.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAiwBcAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-18T15:37:16.244Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 16,
-              "Title": "DemoCompany.API.csproj",
-              "DocumentMoniker": "D:\\Teaching\\DemoCompany\\DemoCompany.API\\DemoCompany.API.csproj",
-              "RelativeDocumentMoniker": "DemoCompany.API\\DemoCompany.API.csproj",
-              "ToolTip": "D:\\Teaching\\DemoCompany\\DemoCompany.API\\DemoCompany.API.csproj",
-              "RelativeToolTip": "DemoCompany.API\\DemoCompany.API.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-06-18T14:20:50.32Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "DemoCompany.DAL.csproj",
-              "DocumentMoniker": "D:\\Teaching\\DemoCompany\\DemoCompany.DAL\\DemoCompany.DAL.csproj",
-              "RelativeDocumentMoniker": "DemoCompany.DAL\\DemoCompany.DAL.csproj",
-              "ToolTip": "D:\\Teaching\\DemoCompany\\DemoCompany.DAL\\DemoCompany.DAL.csproj",
-              "RelativeToolTip": "DemoCompany.DAL\\DemoCompany.DAL.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-06-18T15:35:20.644Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
               "Title": "DemoCompany.DAL.csproj.Backup.tmp",
               "DocumentMoniker": "D:\\Teaching\\DemoCompany\\DemoCompany.DAL\\DemoCompany.DAL.csproj.Backup.tmp",
               "RelativeDocumentMoniker": "DemoCompany.DAL\\DemoCompany.DAL.csproj.Backup.tmp",
@@ -351,7 +342,95 @@
               "RelativeToolTip": "DemoCompany.DAL\\DemoCompany.DAL.csproj.Backup.tmp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2026-06-18T14:23:22.681Z"
+              "WhenOpened": "2026-06-18T14:23:22.681Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "SalaryHistory.cs",
+              "DocumentMoniker": "D:\\Teaching\\DemoCompany\\DemoCompany.DAL\\Models\\SalaryHistory.cs",
+              "RelativeDocumentMoniker": "DemoCompany.DAL\\Models\\SalaryHistory.cs",
+              "ToolTip": "D:\\Teaching\\DemoCompany\\DemoCompany.DAL\\Models\\SalaryHistory.cs",
+              "RelativeToolTip": "DemoCompany.DAL\\Models\\SalaryHistory.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAA1wAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-25T14:33:17.078Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Project.cs",
+              "DocumentMoniker": "D:\\Teaching\\DemoCompany\\DemoCompany.DAL\\Models\\Project.cs",
+              "RelativeDocumentMoniker": "DemoCompany.DAL\\Models\\Project.cs",
+              "ToolTip": "D:\\Teaching\\DemoCompany\\DemoCompany.DAL\\Models\\Project.cs",
+              "RelativeToolTip": "DemoCompany.DAL\\Models\\Project.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAA7wAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-25T14:33:14.351Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "EmployeeProject.cs",
+              "DocumentMoniker": "D:\\Teaching\\DemoCompany\\DemoCompany.DAL\\Models\\EmployeeProject.cs",
+              "RelativeDocumentMoniker": "DemoCompany.DAL\\Models\\EmployeeProject.cs",
+              "ToolTip": "D:\\Teaching\\DemoCompany\\DemoCompany.DAL\\Models\\EmployeeProject.cs",
+              "RelativeToolTip": "DemoCompany.DAL\\Models\\EmployeeProject.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAA1wAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-25T14:33:12.091Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "DemoCompany.DAL.csproj",
+              "DocumentMoniker": "D:\\Teaching\\DemoCompany\\DemoCompany.DAL\\DemoCompany.DAL.csproj",
+              "RelativeDocumentMoniker": "DemoCompany.DAL\\DemoCompany.DAL.csproj",
+              "ToolTip": "D:\\Teaching\\DemoCompany\\DemoCompany.DAL\\DemoCompany.DAL.csproj",
+              "RelativeToolTip": "DemoCompany.DAL\\DemoCompany.DAL.csproj",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-06-18T15:35:20.644Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "GetEmployeeResponseDTO.cs",
+              "DocumentMoniker": "D:\\Teaching\\DemoCompany\\DemoCompany.BLL\\DTO\\GetEmployeeResponseDTO.cs",
+              "RelativeDocumentMoniker": "DemoCompany.BLL\\DTO\\GetEmployeeResponseDTO.cs",
+              "ToolTip": "D:\\Teaching\\DemoCompany\\DemoCompany.BLL\\DTO\\GetEmployeeResponseDTO.cs",
+              "RelativeToolTip": "DemoCompany.BLL\\DTO\\GetEmployeeResponseDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-18T14:24:07.735Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "DemoCompany.API",
+              "DocumentMoniker": "D:\\Teaching\\DemoCompany\\DemoCompany.API\\DemoCompany.API.csproj",
+              "RelativeDocumentMoniker": "DemoCompany.API\\DemoCompany.API.csproj",
+              "ToolTip": "D:\\Teaching\\DemoCompany\\DemoCompany.API\\DemoCompany.API.csproj",
+              "RelativeToolTip": "DemoCompany.API\\DemoCompany.API.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-06-18T15:15:19.402Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "DemoCompany.API.csproj",
+              "DocumentMoniker": "D:\\Teaching\\DemoCompany\\DemoCompany.API\\DemoCompany.API.csproj",
+              "RelativeDocumentMoniker": "DemoCompany.API\\DemoCompany.API.csproj",
+              "ToolTip": "D:\\Teaching\\DemoCompany\\DemoCompany.API\\DemoCompany.API.csproj",
+              "RelativeToolTip": "DemoCompany.API\\DemoCompany.API.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-06-18T14:20:50.32Z"
             }
           ]
         },
